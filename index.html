@@ -12,7 +12,9 @@
     </header>
 
     <main>
-        <section class="recipe">
+        <input type="text" id="searchInput" onkeyup="searchRecipes()" placeholder="Search for recipes...">
+        
+        <section class="recipe" id="recipe1">
             <h2 class="recipe-title">Beef Steaks</h2>
             <div class="recipe-image">
                 <img src="images/istockphoto-673909238-1024x1024.webp" alt="Beef Steaks Image">
@@ -42,7 +44,7 @@
         </section>
 
  
-        <section class="recipe">
+        <section class="recipe" id="recipe2">
             <h2 class="recipe-title">Recipe Title 2</h2>
             <div class="recipe-image">
                 <img src="images/recipe2.jpg" alt="Recipe 2 Image">
@@ -52,7 +54,7 @@
             </div>
         </section>
 
-        <section class="recipe">
+        <section class="recipe" id="recipe3">
             <h2 class="recipe-title">Recipe Title 3</h2>
             <div class="recipe-image">
                 <img src="images/recipe3.jpg" alt="Recipe 3 Image">
@@ -69,6 +71,8 @@
     <footer>
         <p>&copy; 2023 Recipe Website</p>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
 
